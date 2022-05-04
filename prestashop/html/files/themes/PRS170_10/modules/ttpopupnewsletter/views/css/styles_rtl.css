@@ -1,0 +1,173 @@
+#ttPopupnewsletter {
+	text-align: center;
+	float: right;
+	width: 100%;
+	margin-top: 15px;
+}
+.ttPopupnewsletter-i .close {
+	color: #ffffff;
+	font-weight: normal;
+	line-height: 16px;
+	margin: auto;
+	position: absolute;
+	left: 5px;
+	text-align: center;
+	top: 5px;
+	width: auto;
+	z-index: 99;
+}
+.ttPopupnewsletter-i .close i {
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transition: all 0.5s ease-in-out 0ms;
+	-webkit-transition: all 0.5s ease-in-out 0ms;
+	-moz-transition: all 0.5s ease-in-out 0ms;
+	-o-transition: all 0.5s ease-in-out 0ms;
+	-ms-transition: all 0.5s ease-in-out 0ms;
+}
+.ttPopupnewsletter-i .close span {
+	display: none;
+}
+.ttPopupnewsletter-i .close:hover i {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+.ttpopupnewsletter {
+  background-color: #ffffff;
+  border-radius: 10px;
+	border-radius:10px; 
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	-khtml-border-radius:10px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+#newsletter_block_popup {
+	float: right;
+	width: 100%;
+}
+#newsletter_block_popup .ttnewslatterpopup-img {
+	padding: 0;
+}
+#newsletter_block_popup .ttnewslatterpopup-img img{
+	max-width: 100%;
+}
+#newsletter_block_popup .ttnewslatterpopup-content{
+	float: right;
+	margin: 12% 0;
+	text-align: center;
+	background: #fff;
+}
+#newsletter_block_popup #tt_newsletter_dont_show_again {
+  cursor: pointer;
+}
+#newsletter_block_popup .block_content .newsletter_title h3 {
+	color: #333333;
+	font-size: 26px;
+	font-weight: 600;
+	margin: 0 0 15px;
+	text-transform: capitalize;
+}
+#newsletter_block_popup .block_content .ttContent {
+	color: #666666;
+	font-size: 13px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+#newsletter_block_popup .block_content .ttContent p {
+	margin: 0;
+}
+#newsletter_block_popup .block_content .ttAlert {
+	color: #c22312;
+	float: right;
+	font-size: 14px;
+	margin: 0 0 10px;
+	text-align: center;
+	width: 100%;
+}
+#newsletter_block_popup .block_content .inputNew {
+	background-color: #f5f5f5;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px; 
+	-khtml-border-radius:4px ;
+	height: 45px;
+	padding: 5px 15px;
+	width: 90%;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #666;
+}
+#newsletter_block_popup .block_content .send-reqest {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+#newsletter_block_popup .newsletter_block_popup-bottom {
+	display: inline-block;
+	float: none;
+	text-align: center;
+	vertical-align: top;
+	width: auto;
+}
+#newsletter_block_popup .newsletter_block_popup-bottom .subscribe-bottom {
+	float: right;
+	height: 15px;
+	margin: 2px 5px;
+	width: 15px;
+}
+#newsletter_block_popup .newsletter_block_popup-bottom .tt_newsletter_dont_show_again {
+	color: #666666;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0;
+	cursor:pointer;
+}
+#newsletter_block_popup .newsletter_block_popup-bottom .tt_newsletter_dont_show_again:hover{
+	color:#000;
+}
+@media (min-width: 631px){
+	#newsletter_block_popup .ttnewslatterpopup-img img {
+	    border-radius: 0px 10px 10px 0px;
+	    -moz-border-radius: 0px 10px 10px 0px;
+	    -webkit-border-radius: 0px 10px 10px 0px;
+	    -khtml-border-radius: 0px 10px 10px 0px;
+	}
+}
+@media (max-width: 630px) {
+	.ttpopupnewsletter {
+		display: inline-block;
+		float: none;
+		max-width: 300px !important;
+		position: relative;
+		vertical-align: top;
+		width: auto;
+	}
+	#newsletter_block_popup .ttnewslatterpopup-img {
+		width: 100%;
+		text-align: center;
+	}
+	#newsletter_block_popup .ttnewslatterpopup-content {
+		padding: 30px 15px;
+		width: 100%;
+		margin: 0;
+	}
+	#newsletter_block_popup .ttnewslatterpopup-img img {
+	   border-radius: 10px 10px 0 0px;
+	}
+}

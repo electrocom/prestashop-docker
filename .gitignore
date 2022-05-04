@@ -1,2 +1,3 @@
 fs/
 .idea
+prestashop/html/restoredb/prestashop.sql
